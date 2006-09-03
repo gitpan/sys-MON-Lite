@@ -1,0 +1,11 @@
+Revision history for sys-mon-lite
+
+0.01    Aug 2006 / twelvty past midnight
+
+        This is an early release
+
+	Module documentation and test suite is scant and in want of more work
+
+	sys::mon::lite is here expressed as an idea 
+	- a simple management framework for small systems that can be expanded by the addition of plugins
+
