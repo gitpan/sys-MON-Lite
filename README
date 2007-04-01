@@ -1,6 +1,6 @@
 sys-mon-lite
 
-This is an early release
+This is the second, early release
 
 Module documentation and test suite is scant and in want of more work
 
@@ -22,6 +22,15 @@ To install this module, run the following commands:
     make test
     make install
 
+LATEST SOURCE
+
+to get the latest release of this module, prior to the next release onto the CPAN, visit
+
+  http://code.google.com/p/sys-mon-lite/
+
+Use this command to anonymously check out the latest project source code:
+
+  svn checkout http://sys-mon-lite.googlecode.com/svn/trunk/ sys-mon-lite 
 
 SUPPORT AND DOCUMENTATION
 
@@ -49,3 +58,4 @@ Copyright (C) 2006 Jon Brookes
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
+

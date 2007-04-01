@@ -1,11 +1,26 @@
 Revision history for sys-mon-lite
 
-0.01    Aug 2006 / twelvty past midnight
+0.01    Aug 2006 
 
         This is an early release
 
 	Module documentation and test suite is scant and in want of more work
 
 	sys::mon::lite is here expressed as an idea 
-	- a simple management framework for small systems that can be expanded by the addition of plugins
+	- a simple management framework for small systems that can be expanded by the addition of
 
+0.02    Mar 2007 
+
+        second, early release
+
+        module tests have been added
+
+        plugin framework has been extended to include a pluggable back end store
+
+        the ealy plugins have been reviewed, some removed, some added and all share a common architecture
+
+        plugings now have a standardised interface, using parameters and plugin results are summarised 
+
+        DBM::Deep is used internally as the standard state persistent mechanism
+
+        the backend store may be used to interface to other monitoring systems
